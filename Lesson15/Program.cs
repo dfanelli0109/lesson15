@@ -7,6 +7,7 @@ namespace StringsNullablesConversionsDecisions
     {
         static void Main()
         {
+            char x = 'c';
             string originalString = "Cat";             
             System.Text.StringBuilder sb =
                 new System.Text.StringBuilder(originalString); 
