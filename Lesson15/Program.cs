@@ -16,18 +16,18 @@ namespace StringsNullablesConversionsDecisions
             System.Console.WriteLine(resultingString);
 
 
-            int? x = null;
+            int? Y = null;
             
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine(x);
-                if (x == null) {
+                if (Y == null) {
                     Console.WriteLine(false);
 
                 } else {
                     Console.WriteLine(true);
                 }
-                x = 42;
+                Y = 42;
 
             }
 
